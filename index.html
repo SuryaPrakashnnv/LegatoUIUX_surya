@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script> -->
+
+  <!-- <link rel="stylesheet" href="./css/fontawesome.css"> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./js/index.js"></script>
+
+  <title>Legato Health Technologies...</title>
+</head>
+<body>
+  
+  <div class="container" ng-controller="legatoController">
+    <header class="header">
+      <img src="img/logo.jpeg" alt="legato logo" class="logo">
+      
+      <div class="caption">Welcome To Our Medical & Research Center</div>
+
+      <nav class="user-nav">
+        <div class="user-nav__icon-box">
+          <i class="fa fa-facebook user-nav__icon" aria-hidden="true"></i>
+        </div>
+        <div class="user-nav__icon-box">
+          <i class="fa fa-twitter user-nav__icon" aria-hidden="true"></i>
+        </div>
+        <div class="user-nav__icon-box">
+          <i class="fa fa-dribbble user-nav__icon" aria-hidden="true"></i>
+        </div>
+        <div class="user-nav__icon-box">
+          <i class="fa fa-instagram user-nav__icon" aria-hidden="true"></i>
+        </div>
+      </nav>
+    </header>
+
+    <nav class="top-nav-bar">
+      <ul class="top-nav">
+        <li class="top-nav__item">
+          <a href="#sec-home" class="top-nav__link">
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-about" class="top-nav__link">
+            <span>About</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-services" class="top-nav__link">
+            <span>Services</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-pages" class="top-nav__link">
+            <span>Pages</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-doctors" class="top-nav__link">
+            <span>Doctors</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-appointment" class="top-nav__link">
+            <span>Appointment</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-gallery" class="top-nav__link">
+            <span>Gallery</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-blog" class="top-nav__link">
+            <span>Blog</span>
+          </a>
+        </li>
+        <li class="top-nav__item">
+          <a href="#sec-contact" class="top-nav__link">
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a href="#">
+      <div class="go-top">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+      </div>
+    </a>
+    <div class="page-content" >
+      <!-- <div ng-view></div> -->
+      <!-- section home starts  -->
+
+      <div id="sec-home" class="section-home">
+        <div class="home">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+              Welcome To Our Medical & Rresearch Center
+            </h2>
+          </div>
+          <h3 class="heading-3">Hello, We are Medical!!</h3>
+          <h1 class="heading-1">We care about your health</h1>
+          <button class="lbtn lbtn--white lbtn--animated">View Services</button>
+          <div class="home__seenon-text">Best Hospitality Services in your town</div>
+        </div>
+        <div class="infos">
+          <!-- <h3 class="heading-3">Top 3 Realtors</h3> -->
+          <div class="infos__list">
+            <div class="infos__img">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <div class="infos__details">
+              <h4 class="infos__stitle">1111 222 33333</h4>
+              <p class="infos__sold">9-820-323-Hello</p>
+            </div>
+            <div class="infos__img">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+            <div class="infos__details">
+              <h4 class="infos__stitle">hello@medical.com</h4>
+              <p class="infos__sold">info@medical.com</p>
+            </div>
+            <div class="infos__img">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="infos__details">
+              <h4 class="infos__stitle">PO Box 16122 Collins Street West</h4>
+              <p class="infos__sold">Victoria 8007 Australia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section home ends -->
+
+      <!-- section about starts -->
+      <div id="sec-about" class="section-about">
+        <div class="about">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Best Medical Responsive HTML &amp; Multipurpose Template
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="about-grid">
+            <div class="about-grid__item about-grid__item-1">
+              <p>It has survival not only five centuries. but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages...</p>
+            </div>
+            <div class="about-grid__item about-grid__item-2">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <table class="about-grid__icon-table table table-hover table-borderless">
+                <thead>
+                  <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Monday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday</td>
+                    <td>8.00 - 16.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="about-grid__item about-grid__item-3">
+              <div class="about-grid__item-title">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <h5>Emergency Case</h5>
+              </div>
+              <div class="about-grid__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum explicabo ut magnam!
+              </div>
+            </div>
+            <div class="about-grid__item about-grid__item-4">
+              <div class="about-grid__item-title">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <h5>Qualified Doctors</h5>
+              </div>
+              <div class="about-grid__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum explicabo ut magnam!
+              </div>
+            </div>
+            <div class="about-grid__item-5">
+              <div class="about-grid__item-title">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <h5>Online Appointment</h5>
+              </div>
+              <div class="about-grid__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum explicabo ut magnam!
+              </div>
+            </div>
+            <div class="about-grid__item-6">
+              <div class="about-grid__item-title">
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                <h5>Free Medical Counseling</h5>
+              </div>
+              <div class="about-grid__item-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum explicabo ut magnam!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section about ends -->
+      <hr>
+      <!-- section services starts -->
+      <div id="sec-services" class="section-services">
+        <div class="services">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Our Services
+            </h2>
+          </div>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="sub-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum unde harum magnam optio quidem doloremque
+          maxime, aperiam itaque debitis illo consequuntur, corporis rem mollitia?
+        </div>
+      
+      
+        <div class="services-grid">
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <div class="services-grid__item-title">
+              Eye Specialist
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+      
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-bed" aria-hidden="true"></i>
+            </div>
+            <div class="services-grid__item-title">
+              Operation Theater
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+      
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-heartbeat" aria-hidden="true"></i>
+            </div>
+            <div class="services-grid__item-title">
+              ICU Department
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+      
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-user-md" aria-hidden="true"></i>
+            </div>
+            <div class="services-grid__item-title">
+              Qualified Doctors
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+      
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+      
+            </div>
+            <div class="services-grid__item-title">
+              Heart Problems
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+      
+          <div class="services-grid__item">
+            <div class="services-grid__item-icon">
+              <i class="fa fa-medkit" aria-hidden="true"></i>
+            </div>
+            <div class="services-grid__item-title">
+              Stomach Problems
+            </div>
+            <div class="services-grid__item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut quisquam voluptate impedit, laborum vero!
+            </div>
+          </div>
+        </div>
+      
+        <div class="services-grid1">
+          <div class="services-grid1__item">
+      
+          </div>
+        </div>
+      </div>
+      <!-- section services ends -->
+      <hr>
+      <!-- section pages starts -->
+      <div id="sec-pages" class="section-pages">
+        <div class="pages">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              We are Team of Young Professionals Passionate in our Work
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="sub-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum unde harum magnam optio quidem doloremque
+            maxime, aperiam itaque debitis illo consequuntur, corporis rem mollitia?
+          </div>
+      
+          <div class="pages-gal">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      
+                <div class="carousel" class="flexSlider">
+                  <ul class="slides">
+                    <li>
+                      <img src="./img/cimg01.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg02.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg03.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg04.jpg" />
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="carousel" class="flexSlider">
+                  <ul class="slides">
+                    <li>
+                      <img src="./img/cimg05.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg06.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg07.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg08.jpg" />
+                    </li>
+                  </ul>
+                </div>
+      
+                <div id="carousel" class="flexSlider">
+                  <ul class="slides">
+                    <li>
+                      <img src="./img/cimg09.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg10.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg11.jpg" />
+                    </li>
+                    <li>
+                      <img src="./img/cimg12.jpg" />
+                    </li>
+                  </ul>
+                </div>
+      
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      <!-- section pages ends -->
+      <hr>
+      <!-- section doctors starts -->
+      <div id="sec-doctors" class="section-doctors">
+        <div class="doctors">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Our Best Departments &amp; Doctors
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="sub-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum unde harum magnam optio quidem doloremque
+            maxime, aperiam itaque debitis illo consequuntur, corporis rem mollitia?
+          </div>
+      
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--1">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--1">
+                      Eye Specialist
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, odit repellat
+                      sint quo impedit ratione asperiores exercitationem eum labore, quis blanditiis magni alias illum eveniet
+                      repudiandae totam doloremque a. Asperiores unde libero praesentium dolor quae recusandae mollitia hic
+                      aperiam obcaecati incidunt ipsum omnis autem, at consequuntur reiciendis temporibus quibusdam
+                      voluptatem.</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--2">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--2">
+                      Dental Specialist
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident,
+                      officia non esse porro magni earum quisquam blanditiis amet vero ex vel, magnam a obcaecati sint ad,
+                      quaerat distinctio laborum cupiditate in excepturi quibusdam ipsam. Praesentium temporibus eveniet
+                      repudiandae aliquid placeat nihil eligendi enim soluta, quaerat non incidunt molestiae laudantium earum
+                      accusamus saepe quo error, minus id, fugiat ea excepturi.</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--3">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--3">
+                      Cardiology
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae esse
+                      sunt eveniet nam neque reprehenderit laboriosam natus soluta alias. Eveniet quos repudiandae dolorem eos
+                      voluptas sint quidem. Voluptatem necessitatibus repudiandae excepturi ex minus non laboriosam laudantium
+                      odio soluta doloremque porro exercitationem autem iste rerum adipisci dolor, ipsam delectus, suscipit
+                      dolorum? Iure, harum minima? Aperiam deserunt qui inventore dolorum ad nesciunt illum odit sapiente
+                      maiores. Facere, perferendis suscipit distinctio consequuntur assumenda inventore ea officiis fugiat
+                      earum aut. Architecto perspiciatis tenetur aliquid!</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      
+      
+          <div class="row">
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--4">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--4">
+                      For Disabled
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-1">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi reprehenderit
+                      quod obcaecati natus excepturi ducimus porro eius. Ipsam eius veniam, commodi quod quisquam eos ratione
+                      ullam, iure quia accusantium inventore.</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--5">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--5">
+                      Ophthalmology
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-2">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptate,
+                      qui earum laudantium officiis odit maiores distinctio quas blanditiis, unde itaque molestiae deserunt
+                      doloremque natus. Vel cupiditate doloremque quae distinctio, facilis dolores unde, illo officiis
+                      repudiandae quas neque, illum voluptates.</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-1-of-3">
+              <div class="card">
+                <div class="card__side card__side--front">
+                  <div class="card__picture card__picture--6">
+                    &nbsp;
+                  </div>
+                  <h4 class="card__heading">
+                    <span class="card__heading-span card__heading-span--6">
+                      Gynecology
+                    </span>
+                  </h4>
+                  <div class="card__details">
+                    <ul>
+                      <li>Qualified Staff of Doctors</li>
+                      <li>Feel like you are at home</li>
+                      <li>24x7 Emergency Service</li>
+                      <li>Save your money and time</li>
+                      <li>Medicine Research</li>
+                      <li>Blood Bank</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card__side card__side--back card__side--back-3">
+                  <div class="card__cta">
+                    <p class="card__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut facere enim
+                      fuga numquam, nam sint odio. Ipsam nemo eos nam quas, dolorem voluptatibus quasi ullam dicta voluptate
+                      non eligendi inventore magni magnam, voluptatem architecto iste minus? Harum corporis accusantium,
+                      possimus nihil iste omnis iusto earum minima error, laboriosam tempora voluptatum!</p>
+                    <a href="#" class="lbtn lbtn--white lbtn--animated" style="font-size: 14px; padding-top: 10px;">Book an
+                      Appointment!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      
+        </div>
+      
+      </div>
+      <!-- section doctors ends -->
+      <hr>
+      <!-- section appointment starts -->
+      <div id="sec-appointment" class="section-appointment">
+        <div class="appointment">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Latest News &amp; Appointments
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="sub-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum unde harum magnam optio quidem doloremque
+            maxime, aperiam itaque debitis illo consequuntur, corporis rem mollitia?
+          </div>
+      
+          <div class="latest">
+      
+            <div class="news">
+              <img src="./img/news01.jpg" alt="news 1" class="news__img">
+              <h5 class="news__title">The Hospital Department Patient</h5>
+              <div class="news__msgs">
+                <p>BY M_ADNAN</p>
+              </div>
+              <div class="news__msgs">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <p>53</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <p>325</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <p>Medical</p>
+              </div>
+              <a href="#" class="btn-text news__btn" style="width: 100%;">Book an Appointment &rarr;</a>
+            </div>
+      
+            <div class="news">
+              <img src="./img/news02.jpg" alt="news 1" class="news__img">
+              <h5 class="news__title">The Department of Patient</h5>
+              <div class="news__msgs">
+                <p>BY M_ADNAN</p>
+              </div>
+              <div class="news__msgs">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <p>53</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <p>325</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <p>Medical</p>
+              </div>
+              <a href="#" class="btn-text news__btn" style="width: 100%;">Book an Appointment &rarr;</a>
+            </div>
+      
+            <div class="news">
+              <img src="./img/news03.jpg" alt="news 1" class="news__img">
+              <h5 class="news__title">The Department of Patient</h5>
+              <div class="news__msgs">
+                <p>BY M_ADNAN</p>
+              </div>
+              <div class="news__msgs">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <p>53</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <p>325</p>
+              </div>
+              <div class="news__category">
+                <i class="fa fa-tag" aria-hidden="true"></i>
+                <p>Medical</p>
+              </div>
+              <a href="#" class="btn-text news__btn" style="width: 100%;">Book an Appointment &rarr;</a>
+            </div>
+      
+          </div>
+      
+        </div>
+      </div>
+      <!-- section appointment ends -->
+      <hr>
+      <!-- section gallery starts -->
+      <div id="sec-gallery" class="section-gallery">
+        <div class="img-gallery">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Photo Gallery
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="sub-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, ipsum unde harum magnam optio quidem doloremque
+            maxime, aperiam itaque debitis illo consequuntur, corporis rem mollitia?
+          </div>
+          <br>
+          <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+              <img src="./img/gal-1.jpg" alt="Gallery Image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+              <img src="./img/gal-2.jpg" alt="Gallery Image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+              <img src="./img/gal-3.jpg" alt="Gallery Image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+              <img src="./img/gal-4.jpg" alt="Gallery Image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img src="./img/gal-5.jpg" alt="Gallery Image 5" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6">
+              <img src="./img/gal-6.jpg" alt="Gallery Image 6" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--7">
+              <img src="./img/gal-7.jpg" alt="Gallery Image 7" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--8">
+              <img src="./img/gal-8.jpg" alt="Gallery Image 8" class="gallery__img">
+            </figure>
+      
+            <figure class="gallery__item gallery__item--9">
+              <img src="./img/gal-9.jpg" alt="Gallery Image 9" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--10">
+              <img src="./img/gal-10.jpg" alt="Gallery Image 10" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--11">
+              <img src="./img/gal-11.jpg" alt="Gallery Image 11" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--12">
+              <img src="./img/gal-12.jpg" alt="Gallery Image 12" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--13">
+              <img src="./img/gal-13.jpg" alt="Gallery Image 13" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--14">
+              <img src="./img/gal-14.jpg" alt="Gallery Image 14" class="gallery__img">
+            </figure>
+      
+          </div>
+        </div>
+      </div>
+      <!-- section gallery ends -->
+      <!-- <hr> -->
+      <!-- section blog starts -->
+      <div id="sec-blog" class="section-blog">
+        <div class="blog">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              What Our Patients Say About Us
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+          <div class="row">
+            <div class="blogs">
+              <figure class="blogs__shape">
+                <img srcset="./img/blog1.jpg 400w, ./img/blog1_large.jpg 2000w"
+                  sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px" alt="Person on a tour" class="story__img"
+                  src="./img/blog1_large.jpg">
+      
+                <figcaption class="blogs__caption">James Smith</figcaption>
+              </figure>
+              <div class="blogs__text">
+                <h3 class="u-margin-bottom-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, numquam?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum placeat laboriosam, debitis impedit sequi
+                  eveniet culpa temporibus rem deserunt dolor distinctio explicabo eaque necessitatibus maxime, saepe ducimus.
+                  Optio quasi reiciendis suscipit provident fugit, repudiandae autem? Sit quae nulla illo ipsam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="blogs">
+              <figure class="blogs__shape">
+                <!-- <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img"> -->
+                <img srcset="./img/blog2.jpg 400w, ./img/blog2_large.jpg 2000w"
+                  sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px" alt="Person on a tour" class="story__img"
+                  src="./img/blog2_large.jpg">
+                <figcaption class="blogs__caption">James T. Morrison</figcaption>
+              </figure>
+              <div class="blogs__text">
+                <h3 class=" u-margin-bottom-small">WOW! My life completely defferent now</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum placeat laboriosam, debitis impedit sequi
+                  eveniet culpa temporibus rem deserunt dolor distinctio explicabo eaque necessitatibus maxime, saepe ducimus.
+                  Optio quasi reiciendis suscipit provident fugit, repudiandae autem? Sit quae nulla illo ipsam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="u-center-text u-margin-top-huge">
+            <a href="#" class="btn-text">Read all Happy stories &rarr;</a>
+          </div>
+        </div>
+      </div>
+      <!-- section blog ends -->
+
+      <!-- section contact starts -->
+      <div id="sec-contact" class="section-contact">
+        <div class="contact">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-colored">
+              Contact Us
+            </h2>
+          </div>
+          <div class="bottom-line"></div>
+        </div>
+        <section class="section-book" id="section-book">
+          <div class="row1">
+            <div class="book">
+              <div class="book__form">
+                <form action="#" class="form">
+      
+                  <div class="form__group">
+                    <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                    <label for="name" class="form__label">Full Name</label>
+                  </div>
+                  <div class="form__group">
+                    <input type="email" class="form__input" placeholder="Email address" id="email" required>
+                    <label for="email" class="form__label">Email Address</label>
+                  </div>
+                  <div class="form__group u-margin-bottom-medium">
+                    <div class="form__radio-group">
+                      <input type="radio" class="form__radio-input" id="small" name="size">
+                      <label for="small" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        Male
+                      </label>
+                    </div>
+                    <div class="form__radio-group">
+                      <input type="radio" class="form__radio-input" id="large" name="size">
+                      <label for="large" class="form__radio-label">
+                        <span class="form__radio-button"></span>
+                        Female
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form__group">
+                    <button class="lbtn lbtn--white lbtn--animated">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- section contact ends -->
+
+
+    </div>
+
+    <footer>
+      <div class="footer">
+
+      
+        <div class="footer__item footer__item-1">
+          <div class="footer__title">About Us</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere hic aliquam earum, illum officia suscipit nesciunt ut doloremque debitis laboriosam exercitationem labore quisquam aperiam dicta sequi assumenda cupiditate nobis ab delectus perferendis illo! Voluptatem id quos labore nobis perferendis!</p>
+          
+        </div>
+        <div class="footer__item footer__item-2">
+          <div class="footer__title">Latest Blog News</div>
+          <figure class="review">
+            <figcaption class="review__user">
+              <img src="img/lbn_t1.jpg" alt="User 1" class="review__photo">
+              <div class="review__user-box">
+                <p class="review__user-name">The Hospital Department Patient</p>
+                <p class="review__user-date">Feb 23rd, 2019</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="review">
+            <figcaption class="review__user">
+              <img src="img/lbn_t2.jpg" alt="User 1" class="review__photo">
+              <div class="review__user-box">
+                <p class="review__user-name">The Hospital Department Patient</p>
+                <p class="review__user-date">Feb 23rd, 2019</p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure class="review">
+            <figcaption class="review__user">
+              <img src="img/lbn_t3.jpg" alt="User 1" class="review__photo">
+              <div class="review__user-box">
+                <p class="review__user-name">The Hospital Department Patient</p>
+                <p class="review__user-date">Feb 23rd, 2019</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="footer__item footer__item-3">
+          <div class="footer__title">Services</div>
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__litem"><a href="#sec-home" class="footer__link">. Home</a></li>
+              <li class="footer__litem"><a href="#sec-pages" class="footer__link">. Pages</a></li>
+              <li class="footer__litem"><a href="#sec-features" class="footer__link">. Features</a></li>
+              <li class="footer__litem"><a href="#sec-appointment" class="footer__link">. Appointment</a></li>
+              <li class="footer__litem"><a href="#sec-portfolio" class="footer__link">. Portfolio</a></li>
+              <li class="footer__litem"><a href="#sec-blog" class="footer__link">. Blog</a></li>
+              <li class="footer__litem"><a href="#sec-contact" class="footer__link">. Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__item footer__item-4">
+          <div class="footer__title">Contact Us</div>
+          <div class="footer__contact">
+            PO Box 16122 Collins Street West <br>
+            Victoria 8007 Australia<br>
+            <br>
+            1111 2222 33333 <br>
+            9-820-323-Hello <br>
+            <br>
+            Hello@medical.com <br>
+            info@medical.com
+
+          </div>
+        </div>
+
+      </div>
+      <div class="copyright fixed-bottom">
+        &copy; Legato Medical Made by SURYA
+      </div>
+    </footer>
+    
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

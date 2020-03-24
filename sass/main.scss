@@ -1,0 +1,25 @@
+@import "abstracts/mixins";
+@import "abstracts/vars";
+
+@import "base/anims";
+@import "base/base";
+@import "base/button";
+@import "base/typos";
+@import "base/utils";
+
+@import "sections/header";
+@import "sections/navbar";
+@import "sections/pagecontent";
+@import "sections/footer";
+
+@import "layout/home";
+@import "layout/about";
+@import "layout/services";
+@import "layout/doctors";
+@import "layout/blog";
+@import "layout/gallery";
+@import "layout/pages";
+@import "layout/appointment";
+@import "layout/contact";
+
+

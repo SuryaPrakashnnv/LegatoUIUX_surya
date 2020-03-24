@@ -1,0 +1,24 @@
+.pages-gal {
+
+}
+.carousel img {
+    // display: block;
+    // opacity: .5;
+    cursor: pointer;
+}
+.slides {
+  display: flex;
+  margin: 0 auto;
+}
+.slides li {
+  // display: inline;
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+}
+.slides li img {
+  // display: inline;
+  // margin: 0 auto
+  padding: 2rem;
+  width: 100%;
+}
